@@ -1,0 +1,123 @@
+.navbar {
+    background-color: blueviolet;
+}
+
+.carousel-indicators button.active {
+    background-color: brown;
+
+}
+
+.carousel-indicators button {
+    background-color: brown !important;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+.cat-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 128px;
+    border-radius: 16px;
+    background-color: #EDEDED;
+    text-align: center;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.stat {
+    color: #8B8B8B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.stat.sel {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.stat-card {
+    background-color: #F6F6F6;
+    padding: 26px 18px;
+    width: 268px;
+    border-radius: 12px;
+}
+
+.txt-stroke {
+    color: black;
+    -webkit-text-fill-color: #F6F6F6;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #AAAAAA;
+}
+
+#bot-ban1 {
+    width: 75%;
+    height: auto;
+    transform: translateX(0px) translateY(-20%);
+}
+
+#bot-ban2 {
+    width: 75%;
+    height: auto;
+    transform: translateX(0px) translateY(20%) scaleX(-1);
+}
+
+#bot-ban-cont {
+    overflow: hidden;
+    background-color:#25177B;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-sec-title {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+.footer-sec-item {
+    margin: 6px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.footer-sec-item:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+@media (min-width: 992px) {
+    #bot-ban1 {
+        height: 342px;
+        width: auto;
+        transform: translateX(-20%) translateY(0px);
+    }
+
+    #bot-ban2 {
+        height: 356px;
+        width: auto;
+        transform: translateX(25%) translateY(0px) scaleX(-1);
+    }
+
+    #bot-ban-cont {
+        background-color: #958AD4;
+        padding-top: 64px;
+        padding-bottom: 46px;
+    }
+}
+
+
+
+

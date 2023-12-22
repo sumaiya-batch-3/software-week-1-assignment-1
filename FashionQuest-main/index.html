@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Shop Hero</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container d-flex justify-content-lg-center">
+            <a class="navbar-brand" href="#"><img id="logo" height="38px" src="./resources/Group 2.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <form class="d-lg-flex d-none flex-grow-1 mx-5">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item me-1">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-1">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item me-1">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <div class="d-flex">
+                        <li class="nav-item me-3 me-lg-1">
+                            <a class="nav-link" href="#"><i class="fa fa-cart-shopping"></i></a>
+                        </li>
+                        <li class="nav-item me-3 me-lg-1">
+                            <a class="nav-link" href="#"><i class="fa fa-user-alt"></i></a>
+                        </li>
+                    </div>
+                    <form class="d-flex d-lg-none">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Slider  -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators d-lg-none">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner" style="height: 650px;">
+                <div class="carousel-item active h-100"
+                    style="background-color:rgb(119, 80, 168);background-size: cover;">
+                    <div
+                        class="container h-100 d-flex flex-wrap position-relative justify-content-center align-items-center">
+                        <div>
+                            <h4 style="font-weight: 200; color: white; font-size: 25px;">Pro.Beyond.</h4>
+                            <h1 style="font-size: 96px;">IPhone <strong>14 Pro</strong></h1>
+                            <p style="font-size: 18px;">Created to change everything for the better. For everyone</p>
+                            <button class="d-none d-lg-block"
+                                style="font-size: 16; font-weight: 800;color: white;background-color: #171495; border: none;padding: 12px 36px; border-radius: 4px;">Shop
+                                Now</button>
+                        </div>
+                        <div class="m-3"></div>
+                        <img src="./resources/Iphone Image.png" class="d-block w-25">
+                    </div>
+                </div>
+                <div class="carousel-item position-relative h-100" style="background-color: black;">
+                    <div
+                        class="container h-100 d-flex flex-wrap position-relative justify-content-center align-items-center">
+                        <div>
+                            <h4 style="font-weight: 200; color: #ffffffaa; font-size: 25px;">Bigger.Better.</h4>
+                            <h1 style="font-size: 96px; color: white;">iPad <strong>Pro</strong></h1>
+                            <p style="font-size: 18px; color: white;">Created to bring the bigger picture. For everyone
+                            </p>
+                            <button
+                                style="font-size: 16; font-weight: 800;color: white;background-color: #761C82; border: none;padding: 12px 36px; border-radius: 4px;">Shop
+                                Now</button>
+                        </div>
+                        <img src="./resources/Iphone 14 pro 1-1.png" class="d-block" style="position: relative; width: 60%;">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev d-none d-lg-block" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <i class="fa fa-chevron-left" aria-hidden="true" style="color: #670E86; font-size: 36px;"></i>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none d-lg-block" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <i class="fa fa-chevron-right" aria-hidden="true" style="color: #670E86; font-size: 36px;"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Collage -->
+        <div class="w-100 d-flex align-items-center flex-wrap flex-lg-nowrap" style="background-color: #EDEDED;">
+            <div>
+                <div class="d-flex align-items-center justify-content-start flex-wrap flex-lg-nowrap"
+                    style="background-color: white;">
+                    <img src="./resources/ipad.png" alt="ipad" class="w-50 mx-2 my-4">
+                    <div class="me-5 ms-4">
+                        <h3 style="font-size: 42px;">iPad 9</h3>
+                        <p style="font-size: 14px; font-weight: 500; color: #909090;">
+                            The iPad is a touchscreen tablet PC made by Apple. The original iPad debuted in 2010. Apple
+                            has four iPad product lines: iPad, iPad mini, iPad Air and iPad Pro. All models are
+                            available in a variety of colors. They run Apple iPadOS mobile operating system (OS) and
+                            have Wi-Fi and Bluetooth connectivity.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center flex-wrap flex-lg-nowrap"
+                    style="background-color: #ADC2D7; overflow: hidden;">
+                    <img src="./resources/Iphone 14 pro 1.png" alt="headphones" class="w-25 mx-2" style="scale: 2.5;">
+                    <div class="w-25 me-5 my-3">
+                        <h3 style="font-size: 29px;font-weight: 100;">Apple <br> Airpods <br><strong>Max</strong></h3>
+                        <p style="font-size: 14px; font-weight: 500; color: white;">
+                            AirPods Max combine high-fidelity audio with industry-leading Active Noise Cancellation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center flex-wrap flex-lg-nowrap"
+                style="overflow: hidden;">
+                <div class="w-50 ms-5">
+                    <h3 style="font-size: 64px;font-weight: 100;">Macbook<br><strong>Air</strong></h3>
+                    <p style="font-size: 14px; font-weight: 500; color: #909090;">
+                        MacBook Air is supercharged by M1 and M2 chips. Featuring FaceTime HD camera, Touch ID, and
+                        vibrant Retina display.
+
+                    </p>
+                    <button class="my-4"
+                        style="font-size: 16; font-weight: 500;color: white;background-color: #27448E; border: none;padding: 12px 36px; border-radius: 4px;">Shop
+                        Now</button>
+                </div>
+                <img src="./resources/Group 6.png" alt="mac" class="w-50 mx-2">
+            </div>
+        </div>
+        <!-- Categories -->
+        <div class="container" style="margin: 96px auto;">
+            <h5 class="mb-5" style="font-size: 24px;font-weight: 500;">Browse By Category</h5>
+            <div class="d-flex flex-wrap justify-content-around gap-3">
+                <div class="cat-card">
+                    <div class="vertical-center">
+                        <i class="fa fa-mobile-screen-button mb-3" style="font-size: 36px;"></i>
+                        <h6 style="font-size: 16px; font-weight: 500;">Phones</h6>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <div class="vertical-center">
+                        <i class="fa fa-laptop mb-3" style="font-size: 36px;"></i>
+                        <h6 style="font-size: 16px; font-weight: 500;">Computers</h6>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <div class="vertical-center">
+                        <i class="fa fa-camera-retro mb-3" style="font-size: 36px;"></i>
+                        <h6 style="font-size: 16px; font-weight: 500;">Cameras</h6>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <div class="vertical-center">
+                        <i class="fa fa-gamepad mb-3" style="font-size: 36px;"></i>
+                        <h6 style="font-size: 16px; font-weight: 500;">Consoles</h6>
+                    </div>
+                </div>
+                <div class="cat-card">
+                    <div class="vertical-center">
+                        <i class="fa fa-headphones mb-3" style="font-size: 36px;"></i>
+                        <h6 style="font-size: 16px; font-weight: 500;">Accessories</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- By stats -->
+        <div class="d-flex" style="background-color: white; padding-top: 36px;padding-bottom: 46px;">
+            <div class="container">
+                <div class="d-flex gap-4 mb-4">
+                    <h4 class="stat sel">New Arrival</h4>
+                    <h4 class="stat">Bestseller </h4>
+                    <h4 class="stat">Featured Products</h4>
+                </div>
+                <div class="d-flex flex-wrap gap-4">
+                    <div class="stat-card text-center">
+                        <div class="d-flex justify-content-end mb-4">
+                            <i class="fa fa-heart txt-stroke" style="font-size: 24px;"></i>
+                        </div>
+                        <img src="./resources/Iphone 14 pro 1-2.png" alt="product" height="160px" class="mb-4">
+                        <h4 style="font-size: 16px; font-weight: 500; margin-bottom: 16px;">Apple iPhone 14 Pro Max
+                            128GB Deep Purple
+                            (MQ9T3RX/A)</h4>
+                        <h4 style="font-size: 24px; font-weight: 700;font-style: italic; margin-bottom: 24px;">$900</h4>
+                        <button
+                            style="color: white;background-color: black;border: none; padding: 12px 0px;width: 100% ;border-radius: 8px;">Buy
+                            Now</button>
+                    </div>
+                    <div class="stat-card text-center">
+                        <div class="d-flex justify-content-end mb-4">
+                            <i class="fa fa-heart txt-stroke" style="font-size: 24px;"></i>
+                        </div>
+                        <img src="./resources/Iphone 14 pro 1-3.png" alt="product" height="160px" class="mb-4">
+                        <h4 style="font-size: 16px; font-weight: 500; margin-bottom: 16px;">Blackmagic Pocket Cinema
+                            Camera 6k</h4>
+                        <h4 style="font-size: 24px; font-weight: 700;font-style: italic; margin-bottom: 24px;">$2535
+                        </h4>
+                        <button
+                            style="color: white;background-color: black;border: none; padding: 12px 0px;width: 100% ;border-radius: 8px;">Buy
+                            Now</button>
+                    </div>
+                    <div class="stat-card text-center">
+                        <div class="d-flex justify-content-end mb-4">
+                            <i class="fa fa-heart txt-stroke"
+                                style="font-size: 24px; -webkit-text-fill-color: red;-webkit-text-stroke-color: red;"></i>
+                        </div>
+                        <img src="./resources/Iphone 14 pro 1-1.png" alt="product" height="160px" class="mb-4">
+                        <h4 style="font-size: 16px; font-weight: 500; margin-bottom: 16px;">Apple Watch Series 9 GPS
+                            41mm Starlight Aluminium Case</h4>
+                        <h4 style="font-size: 24px; font-weight: 700;font-style: italic; margin-bottom: 24px;">$399</h4>
+                        <button
+                            style="color: white;background-color: black;border: none; padding: 12px 0px;width: 100% ;border-radius: 8px;">Buy
+                            Now</button>
+                    </div>
+                    <div class="stat-card text-center">
+                        <div class="d-flex justify-content-end mb-4">
+                            <i class="fa fa-heart txt-stroke" style="font-size: 24px;"></i>
+                        </div>
+                        <img src="./resources/Iphone 14 pro 1.png" alt="product" height="160px" class="mb-4">
+                        <h4 style="font-size: 16px; font-weight: 500; margin-bottom: 16px;">AirPods Max Silver
+                        </h4>
+                        <h4 style="font-size: 24px; font-weight: 700;font-style: italic; margin-bottom: 24px;">$549</h4>
+                        <button
+                            style="color: white;background-color: black;border: none; padding: 12px 0px;width: 100% ;border-radius: 8px;">Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom banner -->
+        <div class="container-fluid d-flex flex-wrap flex-lg-nowrap justify-content-center justify-content-lg-between align-items-center"
+            id="bot-ban-cont">
+            <img src="./resources/image 19.png" alt="bot_ban1" id="bot-ban1">
+            <div style="text-align: center; margin: 16px 16px;">
+                <h2 style="font-size: 63px; font-weight: 800; color: #25177B; letter-spacing: -4px;">11.11 <span
+                        style="color: white;">Sale</span></h2>
+                <p style="font-size: 16px; color: white;">
+                    Save your bucks for one of the largest yearly sales, enjoy huge discounts on products and free
+                    delivery.
+                </p>
+            </div>
+            <img src="./resources/Iphone Image.png" alt="bot_ban2" id="bot-ban2">
+        </div>
+    </main>
+    <footer style="background-color: #0E071B;">
+        <div class="container d-flex flex-column flex-lg-row gap-5 justify-content-around px-5" style="padding: 96px 0px;">
+            <img src="./resources/Group 2.png" alt="logo" height="48px">
+            <div class="d-lg-flex flex-nowrap gap-4 d-none" style="color: white;">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="text-center text-lg-start">
+                <p class="footer-sec-title">Services</p>
+                <p class="footer-sec-item">Bonus program</p>
+                <p class="footer-sec-item">Gift cards</p>
+                <p class="footer-sec-item">Credit and payment</p>
+                <p class="footer-sec-item">Service contracts</p>
+                <p class="footer-sec-item">Non-cash account</p>
+                <p class="footer-sec-item">Payment</p>
+            </div>
+            <div class="text-center text-lg-start">
+                <p class="footer-sec-title">Assistance to the buyer</p>
+                <p class="footer-sec-item">Find an order</p>
+                <p class="footer-sec-item">Terms of delivery</p>
+                <p class="footer-sec-item">Exchange and return of goods</p>
+                <p class="footer-sec-item">Guarantee</p>
+                <p class="footer-sec-item">Frequently asked questions</p>
+                <p class="footer-sec-item">Terms of use of the site</p>
+            </div>
+            <div class="d-flex flex-nowrap gap-4 d-lg-none justify-content-center" style="color: white;">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+
